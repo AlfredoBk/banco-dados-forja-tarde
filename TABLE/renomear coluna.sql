@@ -1,0 +1,2 @@
+-- Active: 1772562532889@@127.0.0.1@3306
+ALTER TABLE teste RENAME COLUMN saude to health;
