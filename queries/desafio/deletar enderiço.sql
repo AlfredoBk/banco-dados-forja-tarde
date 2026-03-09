@@ -1,0 +1,7 @@
+ALTER TABLE frutaria DROP COLUMN endereso;
+
+ALTER TABLE frutaria DROP COLUMN nome;
+
+ALTER TABLE frutaria ADD COLUMN nome DEFAULT "" NOT NULL
+
+ALTER TABLE frutaria ADD COLUMN endereso DEFAULT "0" NOT NULL
