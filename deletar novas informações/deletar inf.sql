@@ -1,2 +1,2 @@
 -- Active: 1772562532889@@127.0.0.1@3306
-ALTER TABLE frutarias RENAME TO endercos;
+DELETE FROM frutaria WHERE id = 4;
